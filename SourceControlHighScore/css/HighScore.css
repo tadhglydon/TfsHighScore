@@ -1,0 +1,149 @@
+﻿
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/8-BIT_WONDER.TTF);
+}
+
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: myFirstFont;
+    background-image: url("../img/HighScoreBackGround.gif");
+}
+
+#hsTable, #hsTitle, #gameOver, #credits {
+    width: 800px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hsTitle {
+    width: 1000px;
+    top: 50px;
+    text-align: center;
+    font-size: 200%;
+    padding: 10px;
+    overflow: hidden;
+    border: none;
+    color: rgba(255,255,0,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 5px 5px 0 rgba(255,0,0,1);
+}
+
+#hsTable {
+    margin-top: 500px;
+}
+
+#gameOver {
+    margin-top: 125px;
+    text-align: center;
+    color: yellow;
+}
+
+#credits {
+    margin-top: 500px;
+    text-align: right;
+    color: white;
+}
+
+#Names {
+    margin: auto;
+    width: 100%;
+}
+
+/*Scrolling text from http://www.sitepoint.com/css3-starwars-scrolling-text/ */
+#titles
+{
+	position: absolute;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 350%;
+	text-align: center;
+	overflow: hidden;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transform: perspective(450px) rotateX(25deg);
+	-moz-transform: perspective(450px) rotateX(25deg);
+	-ms-transform: perspective(450px) rotateX(25deg);
+	-o-transform: perspective(450px) rotateX(25deg);
+	transform: perspective(450px) rotateX(25deg);
+}
+
+#titles:after
+{
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,1) 0, transparent 100%);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,1) 0, transparent 100%);
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,1) 0, transparent 100%);
+	background-image: -o-linear-gradient(top, rgba(0,0,0,1) 0, transparent 100%);
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0, transparent 100%);
+	pointer-events: none;
+}
+
+#titles p
+{
+	text-align: center;
+	margin: 0.8em 0;
+}
+
+#titles p.center
+{
+	text-align: center;
+}
+    
+#titlecontent
+{
+	position: absolute;
+    text-align: center;
+	top: 100%;
+	-webkit-animation: scroll 100s linear 4s infinite;
+	-moz-animation: scroll 100s linear 4s infinite;
+	-ms-animation: scroll 100s linear 4s infinite;
+	-o-animation: scroll 100s linear 4s infinite;
+	animation: scroll 100s linear 4s infinite;
+}
+
+/* animation */
+@-webkit-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-moz-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-ms-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-o-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+

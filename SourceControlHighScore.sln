@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceControlHighScore", "SourceControlHighScore\SourceControlHighScore.csproj", "{5F22B660-DD12-4356-B3D5-249AF1686DA7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://wl01vtfs02:8080/tfs/prodigyprojectcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SourceControlHighScore\\SourceControlHighScore.csproj
+		SccProjectName1 = SourceControlHighScore
+		SccLocalPath1 = SourceControlHighScore
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F22B660-DD12-4356-B3D5-249AF1686DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F22B660-DD12-4356-B3D5-249AF1686DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F22B660-DD12-4356-B3D5-249AF1686DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F22B660-DD12-4356-B3D5-249AF1686DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

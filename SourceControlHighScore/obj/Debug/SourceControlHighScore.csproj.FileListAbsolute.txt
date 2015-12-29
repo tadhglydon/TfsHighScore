@@ -1,0 +1,7 @@
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\bin\SourceControlHighScore.dll
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\bin\SourceControlHighScore.pdb
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\obj\Debug\SourceControlHighScore.dll
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\obj\Debug\SourceControlHighScore.pdb
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\bin\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\bin\Microsoft.WITDataStore.dll
+C:\Users\tadhg.lydon\Documents\Visual Studio 2012\Projects\SourceControlHighScore\SourceControlHighScore\obj\Debug\SourceControlHighScore.csprojResolveAssemblyReference.cache

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>c:\HighScorePub</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll">
+      <publishTime>07/26/2012 19:08:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WITDataStore.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/SourceControlHighScore.dll">
+      <publishTime>12/29/2015 11:18:32</publishTime>
+    </File>
+    <File Include="css/HighScore.css">
+      <publishTime>12/29/2015 09:49:31</publishTime>
+    </File>
+    <File Include="font/8-BIT_WONDER.TTF">
+      <publishTime>12/24/2015 13:20:08</publishTime>
+    </File>
+    <File Include="HighScore.aspx">
+      <publishTime>12/29/2015 11:01:15</publishTime>
+    </File>
+    <File Include="img/footer.png">
+      <publishTime>08/12/2015 14:15:19</publishTime>
+    </File>
+    <File Include="img/HighScoreBackGround.gif">
+      <publishTime>12/24/2015 13:26:11</publishTime>
+    </File>
+    <File Include="js/HighScore.js">
+      <publishTime>12/24/2015 13:38:52</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.1.js">
+      <publishTime>12/24/2015 13:16:16</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/29/2015 11:18:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
